@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My profile | Facebook</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/9c7165a660.js" crossorigin="anonymous"></script>
+    <script src="../js/app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="/"><img src="../images/fb.png" alt="lOGO" class="logo"></a>
+                <ul>
+                    <li><img src="../images/notification.png" alt=""></li>
+                    <li><img src="../images/inbox.png" alt=""></li>
+                    <li><img src="../images/video.png" alt=""></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <img src="../images/search.png" alt="">
+                    <input type="text" placeholder=" Search ">
+                </div>
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                    <img src="../images/profile-pic.png" alt="">
+                </div>
+            </div>
+
+            <!-- User dropdown  -->
+
+            <div class="settings-menu">
+
+                <div id="dark-btn">
+                    <span></span>
+                </div>
+
+
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="../images/profile-pic.png" alt="">
+                        <div>
+                            <p> John Nicholson </p>.
+                            <a href="../pages/profile.html"> See your profile </a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="../images/feedback.png" alt="">
+                        <div>
+                            <p> Give Feedback </p>
+                            <a href="#"> Help us to improve our design by giving a feedback </a>
+                        </div>
+                    </div>
+                    <hr>
+
+                    <div class="settings-links">
+                        <img src="../images/setting.png" class="settings-icon" alt="">
+                        <a href="#"> Settings & Privacy <img src="../images/arrow.png" width="10px" alt=""></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="../images/help.png" class="settings-icon" alt="">
+                        <a href="#"> Help & Support <img src="../images/arrow.png" width="10px" alt=""></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="../images/display.png" class="settings-icon" alt="">
+                        <a href="#"> Display & Access <img src="../images/arrow.png" width="10px" alt=""></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="../images/logout.png" class="settings-icon" alt="">
+                        <a href="#"> Logout <img src="../images/arrow.png" width="10px" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- Header ends -->
+
+    <!--  ----- Profile content starts from here ------------ -->
+
+    <div class="profile-container">
+        <img src="../images/cover.png" class="cover-img" alt="Banner image">
+        <div class="profile-details">
+            <div class="pd-left">
+                <img src="../images/profile.png" alt="" class="pd-images">
+                <div>
+                    <h3> Jack Nicholson </h3>
+                    <p>120 Friends - 20 mutual</p>
+                    <img src="../images/member-1.png" alt="">
+                    <img src="../images/member-2.png" alt="">
+                    <img src="../images/member-3.png" alt="">
+                    <img src="../images/member-4.png" alt="">
+                </div>
+            </div>
+            <div class="pd-right">
+                <button type="button"><img src="../images/add-friends.png" alt=""> Friend </button>
+                <button type="button"><img src="../images/message.png" alt=""> Message </button>
+                <br>
+                <a href="#"><img src="../images/more.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3> Intro </h3>
+                    <p class="intro-text">Believe in yourself and you can do unbelievable things. <img
+                            src="../images/feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="../images/profile-job.png" alt=""> Director at ARY news</li>
+                        <li><img src="../images/profile-study.png" alt=""> Studied at Berlin University</li>
+                        <li><img src="../images/profile-study.png" alt=""> Went to California, America</li>
+                        <li><img src="../images/profile-home.png" alt=""> Lives in Karachi, Pakistan</li>
+                        <li><img src="../images/profile-location.png" alt=""> From karachi, Pakistan</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3> Photos </h3>
+                        <a href="#"> All Photos </a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="../images/photo1.png" alt=""></div>
+                        <div><img src="../images/photo2.png" alt=""></div>
+                        <div><img src="../images/photo3.png" alt=""></div>
+                        <div><img src="../images/photo4.png" alt=""></div>
+                        <div><img src="../images/photo5.png" alt=""></div>
+                        <div><img src="../images/photo6.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3> Friends </h3>
+                        <a href="#"> All Friends </a>
+                    </div>
+                    <p> 120 (10 mutual) </p>
+                    <div class="friends-box">
+                        <div><img src="../images/member-1.png" alt=""><p> Joseph N </p></div>
+                        <div><img src="../images/member-2.png" alt=""><p> Nathan N </p></div>
+                        <div><img src="../images/member-3.png" alt=""><p> Harry D </p></div>
+                        <div><img src="../images/member-4.png" alt=""><p> Mickle </p></div>
+                        <div><img src="../images/member-5.png" alt=""><p> Edward M </p></div>
+                        <div><img src="../images/member-7.png" alt=""><p> Berlin C </p></div>
+                        <div><img src="../images/member-8.png" alt=""><p> James Doe </p></div>
+                        <div><img src="../images/member-9.png" alt=""><p> Anthony E </p></div>
+                        <div><img src="../images/photo3.png" alt=""><p> Francis L </p></div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="../images/profile.png" alt="">
+                        <div>
+                            <p> John Nicholson </p>
+                            <small> Public <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder=" What's on your mind, John?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="../images/live-video.png" alt=""> Live Video </a>
+                            <a href="#"><img src="../images/photo.png" alt=""> Photo/Video </a>
+                            <a href="#"><img src="../images/feeling.png" alt=""> Feeling/Activity </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="../images/profile-study.png" alt="">
+                            <div>
+                                <p> Sheikh Abdullah </p>
+                                <span> March 24 2023 , 2:30 PM </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text"> This post is related with <span>facebook</span> that you have already see. For
+                        more information visit our github account and linkedin. <a href="#">#GitHub #LinkedIn</a></p>
+                    <img src="../images/feed-image-1.png" alt="post" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="../images/like-blue.png" alt=""> 120 </div>
+                            <div><img src="../images/comments.png" alt=""> 36 </div>
+                            <div><img src="../images/share.png" alt=""> 18 </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="../images/profile-study.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="../images/profile-pic.png" alt="">
+                            <div>
+                                <p> John Nicholson </p>
+                                <span> March 24 2023 , 2:30 PM </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text"> In this picture i'm with my friends <span>at picnic</span> where we sing a
+                        song.
+                        It is very beautiful moment i never forget this. <a href="#">#Freinds #Song</a></p>
+                    <img src="../images/feed-image-2.png" alt="post" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="../images/like.png" alt=""> 150 </div>
+                            <div><img src="../images/comments.png" alt=""> 42 </div>
+                            <div><img src="../images/share.png" alt=""> 24 </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="../images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="../images/profile-pic.png" alt="">
+                            <div>
+                                <p> John Nicholson </p>
+                                <span> March 24 2023 , 2:30 PM </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text"> In this picture i'm with my friends <span>at picnic</span> where we sing a
+                        song.
+                        It is very beautiful moment i never forget this. <a href="#">#Freinds #Song</a></p>
+                    <img src="../images/feed-image-3.png" alt="post" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="../images/like.png" alt=""> 150 </div>
+                            <div><img src="../images/comments.png" alt=""> 42 </div>
+                            <div><img src="../images/share.png" alt=""> 24 </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="../images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="../images/profile-pic.png" alt="">
+                            <div>
+                                <p> John Nicholson </p>
+                                <span> March 24 2023 , 2:30 PM </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text"> In this picture i'm with my friends <span>at picnic</span> where we sing a
+                        song.
+                        It is very beautiful moment i never forget this. <a href="#">#Freinds #Song</a></p>
+                    <img src="../images/feed-image-4.png" alt="post" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="../images/like.png" alt=""> 150 </div>
+                            <div><img src="../images/comments.png" alt=""> 42 </div>
+                            <div><img src="../images/share.png" alt=""> 24 </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="../images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="../images/profile-pic.png" alt="">
+                            <div>
+                                <p> John Nicholson </p>
+                                <span> March 24 2023 , 2:30 PM </span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                    </div>
+                    <p class="post-text"> In this picture i'm with my friends <span>at picnic</span> where we sing a
+                        song.
+                        It is very beautiful moment i never forget this. <a href="#">#Freinds #Song</a></p>
+                    <img src="../images/feed-image-5.png" alt="post" class="post-img">
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="../images/like.png" alt=""> 150 </div>
+                            <div><img src="../images/comments.png" alt=""> 42 </div>
+                            <div><img src="../images/share.png" alt=""> 24 </div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="../images/profile-pic.png" alt=""><i class="fa-solid fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; Copyright 2023-FacebookClone.com All right Reserved
+    </footer>
+</body>
+
+</html>
